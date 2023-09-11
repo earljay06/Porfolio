@@ -11,8 +11,8 @@ const Projects = () => {
       name="projects"
       className="w-full md:h-screen text-gray-300 bg-[#0a192f] py-0"
     >
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8 mt-16 md:mt-28">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full pb-28 lg:px-0 md:px-20">
+        <div className="pb-8 mt-16 md:mt-52">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-amber-500">
             Projects
           </p>
