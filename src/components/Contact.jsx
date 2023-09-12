@@ -61,7 +61,12 @@ const Contact = () => {
       className="w-full md:h-screen bg-[#0a192f] flex justify-center items-center"
     >
       <div className="flex flex-col md:flex-row justify-center items-center py-20 md:px-20">
-        <form className="w-10/12 md:w-5/12 bg-stone-800 border border-amber-500 py-14 rounded-lg">
+        <div className="mb-auto md:mt-24">
+          <h1 className="text-4xl font-bold text-white inline border-b-4 border-amber-500 lg:mr-0 md:mr-0 mr-48">
+            Contact
+          </h1>
+        </div>
+        <form className="w-10/12 md:w-6/12 bg-stone-800 border border-amber-500 py-14 rounded-lg mt-10 md:mt-28">
           <div className="space-y-4">
             <div className="flex flex-row justify-center ml-10">
               <div className="mt-1">
@@ -104,7 +109,7 @@ const Contact = () => {
           </div>
         </form>
 
-        <div className="w-screen md:w-9/12 rounded-lg p-8 shadow-lg lg:col-span-3 lg:p-12">
+        <div className="w-screen lg:w-11/12 md:w-[480px] rounded-lg p-8 shadow-lg lg:col-span-3 lg:p-12 mt-10 md:mt-28">
           <form
             ref={form}
             onSubmit={sendEmail}
