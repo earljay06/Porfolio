@@ -11,15 +11,13 @@ const About = () => {
               About
             </p>
           </div>
-          <div></div>
+          
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 lg:px-12 p-4">
           <div className="sm:text-right text-4xl font-bold flex justify-center pt-6">
             <img
               src={picture}
-              className="opacity-50 md:ml-20 w-full md:w-72 w-44"
-              // style={{ width: "300px" }}
-              alt=""
+              className="opacity-50 md:ml-20 w-full w-48 md:w-72"
             />
           </div>
           <div className="mt-0 md:mt-10">
