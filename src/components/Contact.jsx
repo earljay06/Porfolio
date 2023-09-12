@@ -60,7 +60,7 @@ const Contact = () => {
       name="contact"
       className="w-full md:h-screen bg-[#0a192f] flex justify-center items-center"
     >
-      <div className="flex flex-col md:flex-row justify-center items-center py-20">
+      <div className="flex flex-col md:flex-row justify-center items-center py-20 md:px-20">
         <form className="w-10/12 md:w-5/12 bg-stone-800 border border-amber-500 py-14 rounded-lg">
           <div className="space-y-4">
             <div className="flex flex-row justify-center ml-10">
