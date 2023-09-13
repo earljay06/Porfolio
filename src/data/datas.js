@@ -1,7 +1,15 @@
 import WorkIm from "../assets/project/workImg.jpeg";
 import RealEst from "../assets/project/realestate.jpg";
+import Favewebsite from '../assets/project/favewebsite.png';
 
 export const data = [
+  {
+    id: 1,
+    name: "React JS Application",
+    image: Favewebsite,
+    github: "",
+    live: "",
+  },
   {
     id: 1,
     name: "React JS Application",

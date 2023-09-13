@@ -17,7 +17,7 @@ const About = () => {
           <div className="sm:text-right text-4xl font-bold flex justify-center pt-6">
             <img
               src={picture}
-              className="opacity-50 md:ml-20 w-full w-48 md:w-72"
+              className="opacity-50 md:ml-20 w-full w-44 md:w-72"
             />
           </div>
           <div className="mt-0 md:mt-10">
