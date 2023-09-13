@@ -5,37 +5,32 @@ import Favewebsite from '../assets/project/favewebsite.png';
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
+    name: "First Projects",
     image: Favewebsite,
-    github: "",
-    live: "",
+    live: "https://fave-website.vercel.app/",
   },
   {
     id: 1,
-    name: "React JS Application",
+    name: "Second Projects",
     image: WorkIm,
-    github: "",
     live: "",
   },
   {
     id: 2,
-    name: "React JS Application",
+    name: "Third Projects",
     image: RealEst,
-    github: "",
     live: "",
   },
   {
     id: 3,
-    name: "React JS Application",
+    name: "Fourt Projects",
     image: WorkIm,
-    github: "",
     live: "",
   },
   {
     id: 4,
-    name: "React JS Application",
+    name: "Fifth Projects",
     image: RealEst,
-    github: "",
     live: "",
   },
 ];
