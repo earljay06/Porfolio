@@ -29,7 +29,7 @@ const Home = () => {
   }, []);
 
   return (
-    <div name="home" className="w-full h-screen bg-stone-900">
+    <div name="home" className="w-full h-screen bg-[#0a192f]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full lg:pl-0 md:pl-40">
         <p className="text-amber-500 font-bold text-2xl">Hi, This is</p>
